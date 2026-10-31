@@ -1,0 +1,17 @@
+[project]
+name = "comfyui-imagetolayers"
+description = "Separate any image into editable layers (Detailed Layers) from ComfyUI, using your Image to Layers account."
+version = "1.0.0"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["requests", "pillow", "numpy"]
+keywords = ["comfyui", "layers", "psd", "image-to-layers", "layer separation"]
+
+[project.urls]
+Repository = "https://github.com/jamesknightzhou-arch/ComfyUI-ImageToLayers"
+Homepage = "https://www.imagetolayers.com"
+
+[tool.comfy]
+# Fill in before `comfy node publish` (registry.comfy.org): your publisher id from the registry dashboard.
+PublisherId = ""
+DisplayName = "Image to Layers"

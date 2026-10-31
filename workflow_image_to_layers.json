@@ -1,0 +1,8 @@
+{
+  "1": { "class_type": "LoadImage", "inputs": { "image": "example.png" } },
+  "2": { "class_type": "ImageToLayersDetailed", "inputs": { "image": ["1", 0], "parts_to_separate": "" } },
+  "3": { "class_type": "ImageToLayersPick", "inputs": { "layers": ["2", 0], "masks": ["2", 1], "index": 1 } },
+  "4": { "class_type": "JoinImageWithAlpha", "inputs": { "image": ["3", 0], "alpha": ["3", 1] } },
+  "5": { "class_type": "SaveImage", "inputs": { "images": ["4", 0], "filename_prefix": "layer" } },
+  "6": { "class_type": "PreviewImage", "inputs": { "images": ["2", 0] } }
+}
