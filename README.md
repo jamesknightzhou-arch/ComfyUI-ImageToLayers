@@ -66,3 +66,7 @@ python3 -m unittest discover -s tests   # client and layout; no ComfyUI or torch
 
 - Image up to 25 MB; the optional prompt is cut at 1000 characters.
 - One image per run (the first image of a batch). A job can take a few minutes; the node waits up to 10 minutes.
+
+## License
+
+MIT, see [LICENSE](LICENSE). Using the nodes needs an Image to Layers account; the service itself is not covered by this license.

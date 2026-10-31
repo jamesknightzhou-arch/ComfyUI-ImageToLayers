@@ -3,6 +3,7 @@ name = "comfyui-imagetolayers"
 description = "Separate any image into editable layers (Detailed Layers) from ComfyUI, using your Image to Layers account."
 version = "1.0.0"
 readme = "README.md"
+license = { file = "LICENSE" }
 requires-python = ">=3.10"
 dependencies = ["requests", "pillow", "numpy"]
 keywords = ["comfyui", "layers", "psd", "image-to-layers", "layer separation"]
